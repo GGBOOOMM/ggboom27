@@ -1,0 +1,25 @@
+# my_module.py
+
+def add_numbers(a: int, b: int) -> int:
+    """Add two numbers and return the result.
+
+    Args:
+        a (int): The first number to add.
+        b (int): The second number to add.
+
+    Returns:
+        int: The sum of a and b.
+    """
+    return a + b
+
+def subtract_numbers(a: int, b: int) -> int:
+    """Subtract two numbers and return the result.
+
+    Args:
+        a (int): The first number to subtract from.
+        b (int): The second number to subtract.
+
+    Returns:
+        int: The result of subtracting b from a.
+    """
+    return a - b
